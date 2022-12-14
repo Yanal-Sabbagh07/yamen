@@ -1,0 +1,68 @@
+@import "../variables.scss";
+.nav-container {
+  width: 100vw;
+  height: 60px;
+  // opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 0 24px; */
+  z-index: 9;
+  position: fixed;
+  top: 0px;
+
+  // margin-bottom: 25px;
+  background: linear-gradient(
+    to right,
+    rgba(28, 28, 29, 0.9),
+    rgba(28, 28, 29, 0.9)
+  );
+}
+.Logo-container {
+  width: 25%;
+
+  text-align: left;
+  padding-left: 6rem;
+}
+.logo {
+  cursor: pointer;
+}
+
+.navbar1-container {
+  padding-right: 6rem;
+  width: 75%;
+  // border: 1px solid white;
+}
+.navbar1-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  list-style: none;
+  width: 100%;
+}
+
+.navbar1-list-item {
+  text-decoration: none;
+  color: $color-scale-white;
+  font-size: 18px;
+  width: 30%;
+}
+.hoovered {
+  text-decoration: none;
+  border-radius: 10px;
+  color: $color-scale-gray-0;
+  font-weight: bold;
+  border: 1px solid $color-scale-blue-5;
+  padding: 10px 16px;
+  background-color: $color-scale-red-5;
+}
+.active {
+  text-decoration: none;
+  color: $color-scale-red-4;
+  font-size: 18px;
+  font-weight: bold;
+  // padding: 10px 16px;
+  // border-radius: 10px;
+  // background-color: $color-scale-blue-5;
+  transition: all 0.2s ease;
+}
