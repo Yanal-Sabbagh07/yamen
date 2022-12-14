@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/yamen/static/css/main.073c9b0a.css",
-    "main.js": "/yamen/static/js/main.b3488c25.js",
+    "main.css": "/yamen/static/css/main.6902ce35.css",
+    "main.js": "/yamen/static/js/main.1932bbfc.js",
+    "static/media/manandwoman.jpg": "/yamen/static/media/manandwoman.b0c1bf4363f6ecca41b1.jpg",
+    "static/media/logo.png": "/yamen/static/media/logo.05f1c3e5e41f20bf10e5.png",
     "index.html": "/yamen/index.html",
-    "main.073c9b0a.css.map": "/yamen/static/css/main.073c9b0a.css.map",
-    "main.b3488c25.js.map": "/yamen/static/js/main.b3488c25.js.map"
+    "main.6902ce35.css.map": "/yamen/static/css/main.6902ce35.css.map",
+    "main.1932bbfc.js.map": "/yamen/static/js/main.1932bbfc.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.b3488c25.js"
+    "static/css/main.6902ce35.css",
+    "static/js/main.1932bbfc.js"
   ]
 }
