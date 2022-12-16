@@ -8,9 +8,8 @@ const Header = () => {
       </div>
       <div className="header-text2">
         <h2>
-          consultants endeavor to facilitate financial transactions and manage
-          buiseness operations for a various of financial institutions covering
-          a wide range offinancial products
+          Consultants endeavor to facilitate financial transactions and manage
+          buiseness operations
         </h2>
       </div>
       <div className="buttons-container"></div>

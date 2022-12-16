@@ -1,6 +1,7 @@
+@import "../variables.scss";
 .AboutContainer {
   height: calc(100vh - 60px);
-  color: red;
-  margin-top: 60px;
-  border: 1px solid red;
+  color: $color-scale-orange-4;
+  margin-top: 8rem;
+  // border: 1px solid red;
 }

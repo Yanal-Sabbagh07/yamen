@@ -5,6 +5,7 @@ import { useLocation } from "react-router-dom";
 const Navbar = () => {
   let location = useLocation("/");
   const [hoover, setHoover] = useState("");
+  const [open, setOpen] = useState(false);
   // console.log(location.pathname);
   return (
     <nav className="nav-container">
@@ -15,7 +16,7 @@ const Navbar = () => {
             src={require("../imgs/logo.png")}
             alt="logo"
             width="150"
-            height="45"
+            height="40"
           />
         </Link>
       </div>
@@ -87,6 +88,54 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
+      <div
+        onClick={() => setOpen(!open)}
+        className={open ? "openHam" : "hamburger"}
+      ></div>
+      <ul
+        className="linksContainterMobile"
+        style={{ top: open ? "60px" : "-100vh" }}
+        onClick={() => setOpen(false)}
+      >
+        <li className="listItemMobile">
+          <Link
+            to="/"
+            className={location.pathname === "/" ? "active-mobile" : "navlink"}
+          >
+            Home
+          </Link>
+        </li>
+        <li className="listItemMobile">
+          <Link
+            to="/about"
+            className={
+              location.pathname === "/about" ? "active-mobile" : "navlink"
+            }
+          >
+            About Us
+          </Link>
+        </li>
+        <li className="listItemMobile">
+          <Link
+            to="/services"
+            className={
+              location.pathname === "/services" ? "active-mobile" : "navlink"
+            }
+          >
+            Our Services
+          </Link>
+        </li>
+        <li className="listItemMobile">
+          <Link
+            to="/contact"
+            className={
+              location.pathname === "/contact" ? "active-mobile" : "navlink"
+            }
+          >
+            Contact Us
+          </Link>
+        </li>
+      </ul>
     </nav>
   );
 };
