@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/contact/Contact.scss";
+import "../../styles/pages/contact/Contact.scss";
 const index = () => {
   return (
     <div className="ContactContainer">

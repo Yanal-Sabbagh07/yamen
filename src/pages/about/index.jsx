@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/about/About.scss";
+import "../../styles/pages/about/About.scss";
 const index = () => {
   return (
     <div className="AboutContainer">

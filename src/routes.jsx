@@ -1,6 +1,6 @@
 import React from "react";
 
-import Header from "./pages/home/Header";
+import HomePage from "./pages/home/index";
 import About from "./pages/about/index";
 import Contact from "./pages/contact/index";
 import Services from "./pages/services/index";
@@ -9,7 +9,7 @@ export const routes = [
   {
     title: "Home",
     path: "/",
-    element: <Header />,
+    element: <HomePage />,
     nav: true,
   },
 

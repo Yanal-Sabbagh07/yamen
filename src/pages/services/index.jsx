@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/services/Services.scss";
+import "../../styles/pages/services/Services.scss";
 const index = () => {
   return (
     <div className="ServicesContainer">
