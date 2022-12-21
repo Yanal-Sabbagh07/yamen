@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/yamen/static/css/main.c2404989.css",
-    "main.js": "/yamen/static/js/main.349178cb.js",
+    "main.css": "/yamen/static/css/main.a95cdcd2.css",
+    "main.js": "/yamen/static/js/main.f65a3ab5.js",
     "static/media/hands.jpg": "/yamen/static/media/hands.21e13ebf792609d4939d.jpg",
     "static/media/manandwoman.jpg": "/yamen/static/media/manandwoman.b0c1bf4363f6ecca41b1.jpg",
+    "static/media/payment.jpg": "/yamen/static/media/payment.bf71fe6f7059e056cbb2.jpg",
+    "static/media/brokerage.jpg": "/yamen/static/media/brokerage.28fb8e9708eafe8a8ce4.jpg",
+    "static/media/marketing.jpg": "/yamen/static/media/marketing.5c3e296eafb41b6748ab.jpg",
     "static/media/logo.png": "/yamen/static/media/logo.05f1c3e5e41f20bf10e5.png",
     "index.html": "/yamen/index.html",
-    "main.c2404989.css.map": "/yamen/static/css/main.c2404989.css.map",
-    "main.349178cb.js.map": "/yamen/static/js/main.349178cb.js.map"
+    "main.a95cdcd2.css.map": "/yamen/static/css/main.a95cdcd2.css.map",
+    "main.f65a3ab5.js.map": "/yamen/static/js/main.f65a3ab5.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2404989.css",
-    "static/js/main.349178cb.js"
+    "static/css/main.a95cdcd2.css",
+    "static/js/main.f65a3ab5.js"
   ]
 }
