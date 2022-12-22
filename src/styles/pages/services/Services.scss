@@ -105,11 +105,8 @@
 @media screen and (max-width: 480px) {
   .ServicesSectionContainer {
     padding-top: 8rem;
-
     height: 100%;
-
     justify-content: flex-start;
-    border: 1px solid red;
   }
   .ServicesHeaderContainer {
     width: 90%;
@@ -117,7 +114,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    // border: 1px solid green;
   }
   .ServiceHeaderTxt1 {
     text-align: center;
@@ -141,8 +137,8 @@
     margin-top: 2.5rem;
   }
   .Card1 {
-    width: 90%;
-    height: 30%;
+    width: 85%;
+    height: 31%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -150,8 +146,8 @@
     margin-bottom: 3.5rem;
   }
   .Card2 {
-    width: 90%;
-    height: 26%;
+    width: 85%;
+    height: 27%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -159,9 +155,8 @@
     margin-bottom: 3.5rem;
   }
   .Card3 {
-    width: 90%;
-    height: 30%;
-
+    width: 85%;
+    height: 32%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -169,7 +164,7 @@
   }
   .ImgContainer {
     width: 100%;
-    height: 125px;
+    height: 135px;
   }
   .brokerage {
     width: 100%;
@@ -187,7 +182,6 @@
   }
   .CardTxtContainer {
     width: 92.5%;
-    //   border: 1px solid black;
     font-size: 1.4rem;
     text-align: center;
     margin-top: 1rem;
