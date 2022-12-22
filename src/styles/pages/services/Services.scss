@@ -1,19 +1,12 @@
 @import "../../../styles/variables.scss";
 .ServicesSectionContainer {
-  padding-top: 80px;
+  padding-top: 6rem;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(
-    to right bottom,
-    #003587,
-    #002e70,
-    #002659,
-    #001d43,
-    #04152e
-  );
+  background-image: linear-gradient(to right bottom, #002659, #001d43, #04152e);
 }
 .ServicesHeaderContainer {
   width: 92%;
@@ -24,7 +17,7 @@
   // border: 1px solid black;
 }
 .ServicesHeader {
-  color: $color-scale-orange-4;
+  color: $color-scale-orange-5;
   font-size: 3.8rem;
 }
 .ServiceHeaderTxt1 {
@@ -34,7 +27,7 @@
   color: #e7efff;
 }
 .ServiceHeaderTxt2 {
-  margin-top: 1rem;
+  // margin-top: 0.2rem;
   text-align: center;
   font-size: 3rem;
   color: $color-scale-orange-4;
@@ -58,14 +51,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: radial-gradient(
-    circle,
-    #003587,
-    #002e70,
-    #002659,
-    #001d43,
-    #04152e
-  );
+  background-image: linear-gradient(to right bottom, #04152e, #334b49);
 }
 .ImgContainer {
   width: 100%;
@@ -87,7 +73,7 @@
 .CardTxtContainer {
   width: 92.5%;
   //   border: 1px solid black;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   text-align: center;
   margin-top: 1rem;
   color: $color-scale-gray-0;
@@ -97,14 +83,8 @@
   width: 27%;
   height: 85%;
   // border: 1px solid $color-scale-gray-4;
-  background-image: radial-gradient(
-    circle,
-    #003587,
-    #002e70,
-    #002659,
-    #001d43,
-    #04152e
-  );
+
+  background-image: linear-gradient(to right bottom, #04152e, #334b49);
 
   border-radius: 8px;
   display: flex;
@@ -115,14 +95,8 @@
   width: 27%;
   height: 85%;
   // border: 1px dashed $color-scale-gray-4;
-  background-image: radial-gradient(
-    circle,
-    #003587,
-    #002e70,
-    #002659,
-    #001d43,
-    #04152e
-  );
+
+  background-image: linear-gradient(to right bottom, #04152e, #334b49);
 
   border-radius: 8px;
   display: flex;
@@ -170,7 +144,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    // background-color: #383c46;
+
     margin-bottom: 3.5rem;
   }
   .Card2 {
@@ -179,7 +153,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    // background-color: #383c46;
+
     margin-bottom: 3.5rem;
   }
   .Card3 {
@@ -188,7 +162,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    // background-color: #383c46;
   }
   .ImgContainer {
     width: 100%;
