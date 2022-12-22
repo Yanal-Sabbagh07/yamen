@@ -12,7 +12,15 @@
   top: 0px;
 
   // margin-bottom: 25px;
-  background-image: linear-gradient(to right bottom, #002659, #001d43, #04152e);
+  // background-image: linear-gradient(to right bottom, #002659, #001d43, #04152e);
+  // background-image: linear-gradient(
+  //   to left,
+  //   #051937,
+  //   #004575,
+  //   #007691,
+  //   #00a676,
+  //   #24d01a
+  // );
 }
 .Logo-container {
   width: 50%;
@@ -144,12 +152,11 @@
     height: calc(100vh - 60px);
     width: 100vw;
     background-image: linear-gradient(
-      to bottom,
-      #003587,
-      #002e70,
-      #002659,
-      #001d43,
-      #04152e
+      to right bottom,
+      #051937,
+      #004575,
+      #007691,
+      #00a676
     );
     opacity: none;
 

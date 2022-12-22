@@ -6,7 +6,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(to right bottom, #002659, #001d43, #04152e);
+  background-image: linear-gradient(
+    to right bottom,
+    #051937,
+    #004575,
+    #007691,
+    #00a676,
+    #24d01a
+  );
 }
 .ServicesHeaderContainer {
   width: 92%;
@@ -16,21 +23,18 @@
   justify-content: space-around;
   // border: 1px solid black;
 }
-.ServicesHeader {
-  color: $color-scale-orange-5;
-  font-size: 3.8rem;
-}
+
 .ServiceHeaderTxt1 {
   text-align: center;
   font-size: 3rem;
   padding-bottom: 0.5rem;
-  color: #e7efff;
+  color: #fff;
 }
 .ServiceHeaderTxt2 {
   // margin-top: 0.2rem;
   text-align: center;
   font-size: 3rem;
-  color: $color-scale-orange-4;
+  color: #fff;
 }
 
 .CardsContainer {
@@ -45,17 +49,40 @@
 .Card1 {
   width: 27%;
   height: 85%;
-  // border: 1px solid $color-scale-gray-4;
-  // background-color: $color-scale-gray-9;
+  // border: 2px solid $color-scale-gray-0;
+  // background-color: $color-scale-gray-7;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: linear-gradient(to right bottom, #04152e, #334b49);
+  background-color: #051937;
+}
+.Card2 {
+  width: 27%;
+  height: 85%;
+  // border: 2px solid $color-scale-gray-0;
+  // background-image: linear-gradient(to right bottom, #00808a, #004c56, #00161c);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #051937;
+}
+.Card3 {
+  width: 27%;
+  height: 85%;
+  // border: 2px solid $color-scale-gray-0;
+  // background-image: linear-gradient(to right bottom, #00808a, #004c56, #00161c);
+  // background-image: linear-gradient(to bottom, #051937);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #051937;
 }
 .ImgContainer {
   width: 100%;
-  height: 175px;
+  height: 160px;
 }
 .brokerage {
   width: 100%;
@@ -64,11 +91,12 @@
   border-top-right-radius: 8px;
 }
 .CardHeader {
+  width: 100%;
   margin-top: 1rem;
-  color: $color-scale-orange-4;
+  color: #ff8b41;
   font-size: 1.4rem;
   padding-bottom: 1rem;
-  border-bottom: 2px double $color-scale-gray-5;
+  border-bottom: 2px solid $color-scale-gray-2;
 }
 .CardTxtContainer {
   width: 92.5%;
@@ -78,30 +106,6 @@
   margin-top: 1rem;
   color: $color-scale-gray-0;
   font-weight: 600;
-}
-.Card2 {
-  width: 27%;
-  height: 85%;
-  // border: 1px solid $color-scale-gray-4;
-
-  background-image: linear-gradient(to right bottom, #04152e, #334b49);
-
-  border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.Card3 {
-  width: 27%;
-  height: 85%;
-  // border: 1px dashed $color-scale-gray-4;
-
-  background-image: linear-gradient(to right bottom, #04152e, #334b49);
-
-  border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 @media screen and (max-width: 480px) {

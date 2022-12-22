@@ -1,7 +1,15 @@
 @import "../../variables.scss";
 .AboutContainer {
-  height: calc(100vh - 60px);
+  height: 100vh;
   color: $color-scale-orange-4;
-  margin-top: 8rem;
+  padding-top: 8rem;
   // border: 1px solid red;
+  background-image: linear-gradient(
+    to right bottom,
+    #051937,
+    #004575,
+    #007691,
+    #00a676,
+    #24d01a
+  );
 }
