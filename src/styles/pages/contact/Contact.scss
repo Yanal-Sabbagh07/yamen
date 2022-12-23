@@ -94,3 +94,49 @@ input[type="submit"] {
   color: $color-scale-gray-0;
   border-color: $color-scale-white;
 }
+
+@media screen and (max-width: 480px) {
+  .contact-header {
+    width: 95vw;
+    font-size: 2.8rem;
+  }
+  .contact-form-container {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-form {
+    width: 90%;
+  }
+  .row-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // border: 1px solid red;
+  }
+  .first {
+    width: 35%;
+    font-size: 1.2rem;
+    // background-color: green;
+    text-align: left;
+  }
+  .input-name {
+    min-width: 100%;
+    font-size: 1.2rem;
+  }
+  .input-name-last {
+    min-width: 100%;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    background-color: $color-scale-orange-4;
+    color: $color-scale-gray-0;
+    border-color: $color-scale-white;
+  }
+  input[type="submit"] {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+}
