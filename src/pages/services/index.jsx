@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/pages/services/Services.scss";
+
 const index = () => {
   return (
     <section className="ServicesSectionContainer">
