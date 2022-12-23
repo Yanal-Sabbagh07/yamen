@@ -95,20 +95,59 @@ input[type="submit"] {
   border-color: $color-scale-white;
 }
 
+// --------------------------------- Big -------------------------
+
+@media screen and (min-width: 1400px) {
+  .ContactContainer {
+    justify-content: space-evenly;
+    height: 75vh;
+    border: 1px solid green;
+  }
+  .contact-header {
+    font-size: 5.2rem;
+  }
+  .contact-form-container {
+    width: 75%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+  }
+  .first {
+    font-size: 2.8rem;
+    width: 35%;
+  }
+  .input-name {
+    min-width: 100%;
+    font-size: 2.8rem;
+  }
+  .input-name-last {
+    min-width: 100%;
+
+    font-size: 2.8rem;
+
+    float: left;
+  }
+}
+
 @media screen and (max-width: 480px) {
+  .ContactContainer {
+    justify-content: center;
+  }
+
   .contact-header {
     width: 95vw;
     font-size: 2.8rem;
+    margin-bottom: 2rem;
   }
   .contact-form-container {
     width: 100%;
-    height: 80%;
+    height: 50%;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
   .contact-form {
     width: 90%;
+    justify-content: space-evenly;
   }
   .row-container {
     width: 100%;
@@ -123,20 +162,27 @@ input[type="submit"] {
     // background-color: green;
     text-align: left;
   }
+  .secound {
+    width: 64%;
+  }
   .input-name {
     min-width: 100%;
     font-size: 1.2rem;
   }
   .input-name-last {
-    min-width: 100%;
+    min-width: 50%;
     border-radius: 8px;
     font-size: 1.4rem;
     background-color: $color-scale-orange-4;
     color: $color-scale-gray-0;
     border-color: $color-scale-white;
+    float: left;
   }
   input[type="submit"] {
     padding: 10px 20px;
     cursor: pointer;
+  }
+  textarea {
+    height: 75px;
   }
 }
