@@ -16,7 +16,7 @@ const Navbar = () => {
             src={require("../imgs/logo.png")}
             alt="logo"
             width="150"
-            height="40"
+            height="50"
           />
         </Link>
       </div>

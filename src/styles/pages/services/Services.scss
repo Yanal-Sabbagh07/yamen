@@ -27,15 +27,23 @@
 
 .ServiceHeaderTxt1 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 3.4rem;
   padding-bottom: 0.5rem;
   color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 .ServiceHeaderTxt2 {
   // margin-top: 0.2rem;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.8rem;
   color: #fff;
+  // text-transform: uppercase;
+  letter-spacing: 1px;
+}
+b {
+  color: orangered;
+  font-size: 3.5rem;
 }
 
 .CardsContainer {
@@ -50,7 +58,7 @@
 .Card1 {
   width: 27%;
   height: 85%;
-  border: 2px solid $color-scale-gray-0;
+  border: 2px solid $color-scale-gray-3;
   // background-color: $color-scale-gray-7;
   border-radius: 8px;
   display: flex;
@@ -61,7 +69,7 @@
 .Card2 {
   width: 27%;
   height: 85%;
-  border: 2px solid $color-scale-gray-0;
+  border: 2px solid $color-scale-gray-3;
   // background-image: linear-gradient(to right bottom, #00808a, #004c56, #00161c);
   border-radius: 8px;
   display: flex;
@@ -72,7 +80,7 @@
 .Card3 {
   width: 27%;
   height: 85%;
-  border: 2px solid $color-scale-gray-0;
+  border: 2px solid $color-scale-gray-3;
   // background-image: linear-gradient(to right bottom, #00808a, #004c56, #00161c);
   // background-image: linear-gradient(to bottom, #051937);
   border-radius: 8px;
@@ -94,10 +102,10 @@
 .CardHeader {
   width: 100%;
   margin-top: 1rem;
-  color: #ff8b41;
+  color: orangered;
   font-size: 1.4rem;
   padding-bottom: 1rem;
-  border-bottom: 2px solid $color-scale-gray-2;
+  border-bottom: 2px solid $color-scale-gray-3;
 }
 .CardTxtContainer {
   width: 92.5%;
@@ -113,18 +121,22 @@
 
 @media screen and (min-width: 1400px) {
   .ServiceHeaderTxt1 {
+    margin-top: 4rem;
     text-align: center;
-    font-size: 4.8rem;
+    font-size: 5rem;
     padding-bottom: 1rem;
     color: #fff;
     letter-spacing: 1px;
   }
   .ServiceHeaderTxt2 {
-    // margin-top: 0.2rem;
+    margin-top: 0.2rem;
     text-align: center;
-    font-size: 4.8rem;
+    font-size: 4.5rem;
     color: #fff;
-    letter-spacing: 1px;
+    // letter-spacing: 1px;
+  }
+  b {
+    font-size: 5rem;
   }
   .CardTxtContainer {
     width: 92.5%;

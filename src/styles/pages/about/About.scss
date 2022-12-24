@@ -1,8 +1,9 @@
 @import "../../variables.scss";
 .AboutContainer {
-  height: 100vh;
+  height: calc(100vh - 6rem);
+  width: 100vw;
   color: $color-scale-orange-4;
-  padding-top: 8rem;
+  margin-top: 6rem;
   // border: 1px solid red;
   background-image: linear-gradient(
     to right bottom,
@@ -12,4 +13,211 @@
     #202924,
     #26281f
   );
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.content-container {
+  max-width: 100%;
+  height: calc(100vh - 18rem);
+  display: flex;
+  padding-top: 4rem;
+  // border: 1px solid greenyellow;
+}
+.content-container1 {
+  width: 45%;
+  height: 100%;
+  // border: 1px solid green;
+  margin-left: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  // margin-top: 3rem;
+}
+
+.about-us-container {
+  width: 100%;
+  height: 40%;
+  // border: 1px solid yellow;
+  display: flex;
+  flex-direction: column;
+}
+.about-us-header {
+  color: $color-scale-gray-0;
+  text-align: left;
+  letter-spacing: 1px;
+  font-size: 2.4rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+.about-us-paragraph {
+  color: $color-scale-gray-2;
+  text-align: left;
+  font-size: 1.8rem;
+  width: 85%;
+}
+
+.our-mission-container {
+  width: 100%;
+  height: 50%;
+  // border: 1px solid blue;
+}
+
+.content-container2 {
+  width: 40%;
+  height: 100%;
+  margin-left: 5rem;
+  // border: 1px solid greenyellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  // margin-top: 3rem;
+}
+.why-us-container {
+  width: 100%;
+  height: 40%;
+  // border: 1px solid pink;
+}
+
+.our-services-container {
+  width: 100%;
+  height: 50%;
+  // border: 1px solid white;
+}
+
+.footer {
+  width: 100%;
+  height: 12rem;
+  background-color: orangered;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.details-container {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: $color-scale-gray-1;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  // border: 1px solid black;
+}
+.email-container {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.phone-container {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.address-container {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 36px;
+  height: 36px;
+}
+
+// ---------------------------------------MOBILE DESIGN ---------------------------------------
+@media screen and (max-width: 480px) {
+  .content-container {
+    padding-top: 3rem;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .content-container1 {
+    width: 90%;
+    height: 50%;
+    margin-left: 4rem;
+    flex-direction: column;
+    // border: 1px solid green;
+  }
+
+  .about-us-header {
+    font-size: 2rem;
+
+    margin-bottom: 0.5rem;
+  }
+  .about-us-paragraph {
+    color: $color-scale-gray-2;
+    text-align: left;
+    font-size: 1.4rem;
+    width: 90%;
+  }
+  .about-us-container {
+    width: 100%;
+    height: 40%;
+    // border: 1px solid yellow;
+  }
+  .our-mission-container {
+    width: 100%;
+    height: 60%;
+    // border: 1px solid blue;
+  }
+  .content-container2 {
+    width: 90%;
+    height: 50%;
+    margin-left: 4rem;
+  }
+
+  .details-container {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    color: $color-scale-gray-1;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0px;
+    // border: 1px solid black;
+    padding-left: 3rem;
+  }
+  .email-container {
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    // background-color: red;
+  }
+  .phone-container {
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    // background-color: green;
+  }
+  .address-container {
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    // background-color: yellow;
+  }
+
+  .icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 1.5rem;
+  }
 }
