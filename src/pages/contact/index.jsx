@@ -1,14 +1,22 @@
 import React from "react";
+import { useState } from "react";
 import "../../styles/pages/contact/Contact.scss";
+const Index = () => {
+  const [name, setName] = useState("");
+  const [message, setMessage] = useState("");
+  const handleSubmit = (event) => {
+    event.preventDefault();
 
-const index = () => {
+    setMessage(`Thanks ${name}!`);
+    setName("");
+  };
   return (
     <section className="ContactContainer">
       <div className="header-container">
         <h2 className="contact-header">We're happy to hear from you</h2>
       </div>
       <div className="contact-form-container">
-        <form method="post" action="#" className="contact-form">
+        <form onSubmit={handleSubmit} className="contact-form">
           <div className="row-container">
             <div className="first">
               <label htmlFor="name">Name</label>
@@ -21,6 +29,7 @@ const index = () => {
                 id="name"
                 placeholder="Your Name"
                 required
+                onChange={(event) => setName(event.target.value)}
               ></input>
             </div>
           </div>
@@ -81,8 +90,16 @@ const index = () => {
           </div>
         </form>
       </div>
+      {message.length > 0 && (
+        <div className="message-submit">
+          <h2>
+            {message} <br /> We recieved your message and will get back to you
+            ASAP!
+          </h2>
+        </div>
+      )}
     </section>
   );
 };
 
-export default index;
+export default Index;
