@@ -134,17 +134,46 @@
   height: 36px;
 }
 
+// ********************************* BIG --------------------------------------------
+
+@media screen and (min-width: 1400px) {
+  .content-container {
+    height: calc(100vh - 26rem);
+  }
+  .footer {
+    height: 20rem;
+  }
+  .content-container2 {
+    margin-left: 12rem;
+  }
+  .about-us-header {
+    color: $color-scale-gray-0;
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 3.4rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+  }
+  .about-us-paragraph {
+    color: $color-scale-gray-2;
+    text-align: left;
+    font-size: 2.8rem;
+    width: 85%;
+  }
+}
+
 // ---------------------------------------MOBILE DESIGN ---------------------------------------
 @media screen and (max-width: 480px) {
   .content-container {
-    padding-top: 3rem;
+    padding-top: 0rem;
     flex-direction: column;
     justify-content: space-between;
+    height: calc(100vh - 20rem);
   }
   .content-container1 {
     width: 90%;
-    height: 50%;
-    margin-left: 4rem;
+    height: 55%;
+    margin-left: 3rem;
     flex-direction: column;
     // border: 1px solid green;
   }
@@ -164,18 +193,43 @@
     width: 100%;
     height: 40%;
     // border: 1px solid yellow;
+
+    justify-content: center;
   }
   .our-mission-container {
     width: 100%;
-    height: 60%;
+    height: 55%;
     // border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .content-container2 {
     width: 90%;
+    height: 45%;
+    margin-left: 3rem;
+  }
+  .why-us-container {
+    width: 100%;
     height: 50%;
-    margin-left: 4rem;
+    // border: 1px solid pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
+  .our-services-container {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // border: 1px solid white;
+  }
+
+  .footer {
+    height: 14rem;
+  }
   .details-container {
     width: 95%;
     height: 100%;
@@ -188,7 +242,7 @@
     font-weight: 600;
     letter-spacing: 0px;
     // border: 1px solid black;
-    padding-left: 3rem;
+    padding-left: 2rem;
   }
   .email-container {
     height: 25%;

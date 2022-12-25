@@ -148,7 +148,7 @@ b {
   .CardHeader {
     width: 100%;
     margin-top: 2rem;
-    color: #ff8b41;
+    color: orangered;
     font-size: 2.4rem;
     padding-bottom: 2rem;
   }
@@ -167,6 +167,9 @@ b {
 }
 // ---------------------------------------MOBILE DESIGN ---------------------------------------
 @media screen and (max-width: 480px) {
+  b {
+    font-size: 2rem;
+  }
   .ServicesSectionContainer {
     padding-top: 8rem;
     height: 100%;
@@ -181,7 +184,7 @@ b {
   }
   .ServiceHeaderTxt1 {
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     padding-bottom: 0.5rem;
     color: #e7efff;
   }
@@ -189,7 +192,7 @@ b {
     margin-top: 0rem;
     text-align: center;
     font-size: 1.8rem;
-    color: $color-scale-orange-4;
+    // color: $color-scale-orange-4;
   }
   .CardsContainer {
     height: 1050px;
