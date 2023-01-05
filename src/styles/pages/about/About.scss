@@ -90,7 +90,14 @@
 .footer {
   width: 100%;
   height: 12rem;
-  background-color: orangered;
+  background-image: linear-gradient(
+    to right bottom,
+    #ee9617,
+    #f08301,
+    #f26f00,
+    #f45700,
+    #f53803
+  );
   display: flex;
   align-items: center;
   justify-content: center;
