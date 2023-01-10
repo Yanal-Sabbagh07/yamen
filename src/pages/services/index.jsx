@@ -9,7 +9,7 @@ const index = () => {
         <div className="SecoundaryTextContainer">
           <h3 className="ServiceHeaderTxt1">We provide Services to both</h3>
           <h3 className="ServiceHeaderTxt2">
-            Companies <b>&</b> Individuals.
+            Companies <b>&</b> Individuals
           </h3>
         </div>
       </div>

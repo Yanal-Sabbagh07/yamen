@@ -90,14 +90,7 @@
 .footer {
   width: 100%;
   height: 12rem;
-  background-image: linear-gradient(
-    to right bottom,
-    #ee9617,
-    #f08301,
-    #f26f00,
-    #f45700,
-    #f53803
-  );
+  background-color: orangered;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -145,13 +138,15 @@
 
 @media screen and (min-width: 1400px) {
   .content-container {
-    height: calc(100vh - 26rem);
+    height: calc(100vh - 18rem);
+    // border: 10px solid green;
   }
   .footer {
-    height: 20rem;
+    height: 12rem;
   }
   .content-container2 {
     margin-left: 12rem;
+    // border: 1px solid red;
   }
   .about-us-header {
     color: $color-scale-gray-0;
@@ -160,6 +155,7 @@
     font-size: 3.4rem;
     font-weight: 900;
     margin-bottom: 1rem;
+    // border: 1px solid red;
   }
   .about-us-paragraph {
     color: $color-scale-gray-2;
